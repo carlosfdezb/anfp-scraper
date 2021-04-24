@@ -1,0 +1,28 @@
+{
+  "name": "anfp-scraper",
+  "version": "1.0.1",
+  "description": "ANFP Scraper es un proveedor de contenidos de todo el fútbol chileno, tabla de posiciones, estadísticas, programación, etc. Usando los sitios web de anfp.cl y campeonatochileno.cl para extraer toda la información",
+  "main": "./src/api.js",
+  "scripts": {
+    "dev": "nodemon src/api.js"
+  },
+  "keywords": [
+    "anfp",
+    "anfp-scraper",
+    "futbol chileno",
+    "campeonatochileno"
+  ],
+  "author": "Carlos Fernández <carlosfdezb@gmail.com>",
+  "contributors": [
+    "Carlos Fernández (https://github.com/carlosfdezb)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "cloudscraper": "^4.6.0",
+    "nightmare": "^3.0.2",
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {}
+}
