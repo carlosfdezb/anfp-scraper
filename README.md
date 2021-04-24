@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/img/logo.png" alt="campeonatochileno" />
+  <img src="./assets/img/logo.png" alt="campeonatochileno" style="height: 100px; width: auto;" />
   <img src="./assets/img/anfp.png" alt="ANFP" />
 </p>
 
@@ -20,11 +20,11 @@ npm install anfp-scraper
 ## 📖 Documentation
 Available methods:
 
-- [getPositions](#getPositions): Devuelve la tabla de posiciones del campeonato seleccionado.
-- [getSchedule](#getSchedule): Devuelve la programación del campeonato seleccionado.
-- [getScheduleTeam](#getScheduleTeam): Devuelve la programación para el equipo seleccionado.
-- [getTeams](#getTeams): Devuelve una lista de equipos del campeonato seleccionado.
-- [getTeamInfo](#getTeamInfo): Devuelve toda la información disponible del equipo seleccionado.
+- [getPositions](#-getpositionstype): Devuelve la tabla de posiciones del campeonato seleccionado.
+- [getSchedule](#-getschedulefecha-type): Devuelve la programación del campeonato seleccionado.
+- [getScheduleTeam](#-getscheduleteamid-type): Devuelve la programación para el equipo seleccionado.
+- [getTeams](#-getteamstype): Devuelve una lista de equipos del campeonato seleccionado.
+- [getTeamInfo](#-getteaminfoid): Devuelve toda la información disponible del equipo seleccionado.
 
 
 ## 🚩 getPositions(type)
