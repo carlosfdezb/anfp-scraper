@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="./assets/img/logo.png" alt="campeonatochileno" style="height: 100px; width: auto;" />
+  <img src="./assets/img/logo.png" alt="campeonatochileno" width="100" height="100" />
+</p>
+<p align="center">
   <img src="./assets/img/anfp.png" alt="ANFP" />
 </p>
 
