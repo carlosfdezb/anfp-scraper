@@ -4,8 +4,6 @@ const Nightmare = require('nightmare');
 const nightmare = Nightmare({ show: true });
 const {BASE_URL, SCHEDULE, SCHEDULE_TEAM, COMPETITION, C_SCHEDULE, BASETEAM_URL, TEAM_C, TEAM_URL} = require('./util/urls');
 
-const util = require('util')
-
 const getPositions = async(type) =>{
   const res = await cloudscraper(`${BASE_URL}${COMPETITION[type]}` , {method: 'GET'});
   const body = await res;
@@ -363,8 +361,6 @@ const getTeamInfo = async(id) => {
   })
   return await Promise.all(promises);
 };
-
-getTeamInfo(56).then(res => console.log(util.inspect(res, {showHidden: false, depth: null})))
 
 module.exports = {
   getPositions,
